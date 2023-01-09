@@ -1,0 +1,20 @@
+type Mutation{
+    createStock(stock:StockInput):Stock
+}
+type Query{
+
+    allStocks:[Stock]
+    getStock(StockID:Int):Stock
+
+}
+
+type Stock{
+    id: ID!
+    name:String
+    price:Float
+}
+
+input StockInput{
+    name:String
+    price:Float
+}
