@@ -9,7 +9,7 @@ The application is used for Storing information of Library Books using these CRU
 
 GraphQL is used for querying specified elements from the portfolio because it will save memory space compared for normal SQL queries.
 
-Jsoup library is used for cross checking the validity of the Stock that is being added to the Portfolio, if the stock is not valid at all as per today, then it is not added to the Portfolio and is skipped so that invalid values are dropped by default when portfolio updation is concerned.
+Jsoup library is used for cross checking the validity of the Stock that is being added to the Portfolio, if the stock is not valid at all as per today, then it is not added to the Portfolio and is skipped so that invalid values are dropped by default when portfolio updation is concerned. We scrape the data from Stock Market page and check the validity of the stock by scraping the element that corresponds to the name of the stock in the webpage.
 
 
 To start the project in your local:
