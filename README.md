@@ -25,4 +25,4 @@ To start the project in your local:
 
 -Make sure your server is up and running before using Postman for sending requests.
 
-Thanks
+Thanks.
