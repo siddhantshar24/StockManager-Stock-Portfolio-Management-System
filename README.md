@@ -1,4 +1,4 @@
-# Stocks-Portfolio-SpringBoot-GraphQL-with-crawler
+#StockManager: Stock Portfolio Management System
 REST API Project for building a Stock Market Portfolio for a user using CRUD (Create Retrieve Update Delete) applications through API implemented using JPA Repository in Springboot Framework.
 
 Technologies used: Java, SpringBoot, REST API, JPA Repository, Postman, JSoup.
